@@ -1,0 +1,16 @@
+def count_letter_a(s):
+    """Conta a quantidade de vezes que a letra 'a' (maiúscula ou minúscula) ocorre na string."""
+    # Conta a letra 'a' minúscula e maiúscula na string
+    count = s.lower().count('a')
+    return count
+
+# Entrada do usuário
+try:
+    input_string = input("Digite uma string para verificar a ocorrência da letra 'a': ")
+    count = count_letter_a(input_string)
+    if count > 0:
+        print(f"A letra 'a' ocorre {count} vez(es) na string.")
+    else:
+        print("A letra 'a' não ocorre na string.")
+except Exception as e:
+    print(f"Erro: {e}")
