@@ -1,0 +1,6 @@
+Ligaria o primeiro Interruptor (Interruptor A) e deixaria ligado por um tempo de 10 á 15 minutos, esse tempo ligado fara com que a lampada que ele controle fique quente. Depois desse tempo desligaria o interruptor A e ligaria o segundo interruptor(interruptor B).
+Ir ate a sala de lampadas e observar as situações.
+Lâmpada 1: Se a lâmpada estiver acesa, então ela é controlada pelo Interruptor B (o que você acabou de ligar).
+Lâmpada 2: Se a lâmpada estiver apagada, mas quente ao toque, então ela é controlada pelo Interruptor A (que estava ligado por um tempo e depois foi desligado).
+Lâmpada 3: Se a lâmpada estiver apagada e fria, então ela é controlada pelo Interruptor C (que nunca foi ligado).
+Apos fazer essas observações sera possivel identificar qual interruptor controla cada lampada, indo apenas duas vezes na sala de lampadas.
